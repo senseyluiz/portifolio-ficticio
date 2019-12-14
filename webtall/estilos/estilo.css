@@ -1,0 +1,351 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+
+}
+
+img{
+	width: 100%;
+}
+
+.center{
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: auto;
+}
+
+.mobile{
+	display: none;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.w50{
+	padding: 2%;
+	width: 50%;
+}
+
+.w33{
+	padding: 2%;
+	width: 33.3%;
+}
+
+.w20{
+	padding: 2%;
+	width: 20%;
+	transition:all 0.3s linear;
+}
+
+.w20:hover{
+	padding: 0;
+	
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	padding: 10px 0;
+	background: #005A88;
+	z-index: 1;
+}
+
+nav.desktop ul{
+	position: relative;
+	list-style-type: none;
+	top: 25px;
+}
+
+nav.desktop ul li{
+	display: inline-block;
+	padding: 0 30px;
+	font-size: 15px;
+	font-family: russo one;
+	font-weight: 100;
+}
+
+nav.desktop ul li a{
+	text-decoration: none;
+	color: white;
+}
+ nav.desktop ul li a:hover{
+ 	text-decoration: underline;
+ }
+section.banner-principal{
+	background-image: url(../imagens/fundo-box-header.png);
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	display: block;
+	text-align: center;
+
+}
+
+section .logo-banner{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	display: block;
+}
+
+section .logo-banner h3{
+	color: white;
+	font-size: 16px;
+	display: block;
+	margin-top: 15px;
+	background-color: #223A59;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+section .logo-banner h3:hover{
+	background-color: #E09665;
+	color: #223A59;
+	cursor: pointer;
+}
+
+h3 a{
+	text-decoration: none;
+	color: white;
+}
+
+div.icones{
+	background: #005A88;
+	color: white;
+	margin-top: 0;
+}
+
+div.icones h3{
+	font-size: 40px;
+	text-align: center;
+	color: #FF6600;
+	margin-bottom: 20px;
+}
+
+div.icones p{
+	text-align: center;
+	font-size: 24px;
+}
+
+section.servicos h2{
+	font-size: 10px;
+}
+
+div.visao{
+	text-align: right;
+}
+
+.sobre{
+	width: 70%;
+}
+
+section .center{
+	padding-top: 50px;
+}
+
+section .center h2{
+	font-size: 30px;
+	font-family: russo one;
+	margin-bottom: 10px;
+}
+
+section .center p{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+
+div.marginTop{
+	height: 60px;
+}
+
+section.superior img{
+	max-width: 300px;
+	padding: 0;
+	margin-bottom: -28px;
+	margin-left: 100px;
+}
+
+section.superior h2{
+	font-size: 38px;
+
+}
+
+section.superior p{
+	margin-top: 50px;
+	font-size: 24px;
+}
+
+.cel2{
+	margin-bottom: -24px;
+}
+
+div.orcamento{
+	text-align: center;
+	background: #005A88;
+	height: 250px;
+	padding-top: 50px;
+	color: white;
+	background-size: 100%;
+}
+
+
+div.orcamento h2{
+	font-size: 38px;
+	margin-top: 15px;
+
+}
+
+div.orcamento p{
+	font-size: 22px;
+}
+
+h3.contato{
+	color: white;
+	font-size: 22px;
+	display: block;
+	margin-top: 15px;
+	background-color: #223A59;
+	padding: 5px;
+	border-radius: 5px;
+	width: 250px;
+
+}
+
+h3.contato:hover{
+	cursor: pointer;
+	background-color: #E09665;
+	color: #223A59;
+	cursor: pointer;
+}
+
+.descricao-site{
+	width: 50%;
+	text-align: center;
+}
+
+.logoRodape{
+	width: 350px;
+	margin-bottom: 15px;
+
+}
+
+.descricao-site{
+	margin-top: 15px;
+	font-size: 26px;
+}
+
+footer{
+	background: #005A88;
+	height: 70px;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+}
+
+footer p{
+	margin-top: 50px;
+	padding-top: 15px;
+	font-size: 22px;
+}
+
+.galeria h2{
+	text-align: center;
+	font-size: 50px;
+	font-family: russo one;
+	margin-top: 20px;
+	color: #005A88;
+
+}
+
+.galeria h3{
+	text-align: center;
+	font-size: 30px;
+	font-family: russo one;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.formulario{
+	width: 100%;
+	border-radius: 20px;
+	background-color: #AFC9D6;
+	padding: 15px;
+	
+}
+
+
+
+form input{
+	display: block;
+	margin: 15px;
+	width: 300px;
+	height: 35px;
+	border-radius: 6px;
+	padding-left: 10px;
+	border:3px solid #005A88;
+}
+
+form textarea{
+	margin: 15px;
+	width: 400px;
+	height: 300px;
+	border-radius: 8px;
+	padding: 10px;
+	border:3px solid #005A88;
+}
+
+form input[type=submit]{
+	width: 100px;
+	border:1px solid;
+	cursor: pointer;
+	background: #005A88;
+	color: white;
+}
+
+form input[type=submit]:hover{
+	color: white;
+	background: #ff6600;
+}
+
+strong{
+	font-family: russo one;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+	.w50{
+		width: 100% !important;
+		padding: 20px !important;
+	}
+
+	.descricao-site{
+	width: 100% !important;
+	text-align: center !important;
+	}
+
+	nav.desktop ul li{
+		padding: 0 10px !important;
+	}
+
+	div.icones p{
+		font-size: 16px !important;
+	}
+}
