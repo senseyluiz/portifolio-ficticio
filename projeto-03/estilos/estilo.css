@@ -1,0 +1,369 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+	font-family: "Open Sans"
+}
+
+.center{
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+
+
+.w20{
+	width: 20%;
+	
+}
+
+.w33{
+	width: 33.3%;
+	padding: 0 10px;
+}
+
+.w45{
+	width: 45%;
+	padding: 0 10px;
+}
+
+.w50{
+	width: 50%;
+	padding: 0 10px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+nav.menu-mobile{
+	display: none;
+}
+
+header{
+	background: #999;
+	width: 100%;
+	left: 0;
+}
+
+header img{
+	width: 60%;
+	padding: 10px 0;
+}
+
+.menu-desktop{
+	left: 0;
+	padding-top: 80px;
+}
+
+.menu-desktop ul{
+	list-style: none;
+	position: relative;
+	top: 50%;
+}
+
+.menu-desktop li{
+	display: inline-block;
+	font-weight: 400;
+
+	padding: 0 15px;
+}
+
+.menu-desktop li a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu-desktop li a:hover{
+	color: red;
+}
+
+.telefone{
+	text-align: right;
+	position: relative;
+	top: 60px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.banner-principal{
+	width: 100%;
+	height: 600px;
+	background-image: url('../imagens/avatar.png');
+	background-size: cover;	
+	position: relative;
+}
+
+.banner-principal h2{
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+	padding: 100px 0;
+	color: white;
+	z-index: 2;
+}
+
+.adjetivos{	
+	text-align: center;
+	width: 70%;
+		
+}
+
+.adjetivos h3{
+	font-size: 50px;
+}
+
+.mecanico{
+	background: #999;
+	color: white;
+	height: 120px;
+	padding-top: 15px;
+}
+
+.servico{
+	background: #808080;
+	color: white;
+	height: 120px;
+	padding-top: 15px;
+}
+
+.preco{
+	background: #666;
+	color: white;
+	height: 120px;
+	padding-top: 15px;
+}
+
+.descricao{
+	text-align: center;
+	padding: 30px 0;
+	background: #E6E6E6;
+	color: black;
+}
+
+.descricao h2{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.descricao p{
+	padding-top: 50px;
+	font-weight: 700;	
+}
+
+.leia-mais{
+	margin-top: 20px;
+	background: #CD853F;
+	color: white;
+	border-radius: 15px;
+	width: 200px;
+	height: 30px;
+	padding: 5px;
+	font-size: 25px;
+}
+
+.leia-mais:hover{
+	background: #D2691E;
+	cursor: pointer;
+}
+
+section.logo-carros{
+	background: #CCC;
+	text-align: center;
+}
+
+.contate{
+	text-align: center;
+	background: #4D4D4D;
+	color: white;
+	height: 200px;
+	padding-top: 30px;
+}
+
+section.contate h3{
+	font-size: 40px;
+}
+
+section.contate .contato{
+	font-size: 30px;
+	margin-top: 20px;
+	background: #CD853F;	
+	width: 250px;
+	border-radius: 28px;
+}
+
+section.contate .contato:hover{
+	background: #D2691E;
+	cursor: pointer;
+}
+
+.informacoes{
+	background: black;
+	color: white;
+	padding:40px 0;
+	
+}
+
+.informacoes h4{
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.informacoes img{
+	padding-top: 10px;
+}
+
+.borda{
+	border-bottom: 1px solid white;
+	padding: 30px 0;
+}
+
+footer{
+	text-align: center;
+	background: black;
+	color: white;
+	height: 30px;
+}
+
+.f-contato{
+	text-align: center;
+	width: 50%;
+	padding-top: 50px;
+
+
+}
+
+.f-contato form{
+	border-radius: 15px;
+	text-align: left;
+	background-color: rgba(0,0,0,0.4);
+
+}
+
+.f-contato form label{
+	color: white;
+	font-size: 20px;
+
+}
+
+.f-contato input{
+	width: 70%;
+	padding:5px;
+	border-radius: 10px;
+}
+
+textarea{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.f-contato form input[type=submit] {
+	width: 20%;
+}
+
+.f-contato form input[type=reset] {
+	width: 20%;
+}
+
+div.linha-2, div.linha-1{
+	padding: 30px;
+}
+
+div.linha-2 h3, div.linha-1 h3{
+	padding: 20px;
+	text-align: center;
+
+}
+
+.descricao a, .contate a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.sobre{
+	background: #D3D3D3;
+	padding-top: 30px;
+
+}
+
+.sobre h2{
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.sobre p{
+	padding-bottom: 100px;
+}
+
+.foto-1 img, .foto-2 img{
+	width: 100%;
+	padding: 20px;
+	border-radius: 50px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+	.adjetivos{
+		width: 100%;
+	}
+
+	.w20{
+		width: 50%;
+	}
+
+	.f-contato form input[type=submit] {
+		width: 20%;
+		font-size: 10px;
+		padding: 0;
+	}
+
+	.f-contato form input[type=reset] {
+		width: 20%;
+		font-size: 10px;
+		padding: 0;
+	}
+
+	.telefone{
+		display: none;
+	}
+
+	.sobre .left{
+		float: none;
+	}
+
+	.sobre .w50{
+		width: 100%;
+	}
+
+
+}
+
+@media screen and (max-width: 700px){
+	.logo-carros .left{
+		float: none;
+	}
+
+	.logo-carros{
+		text-align: center;
+	}
+
+	.linha-1 .left, .linha-2 .left{
+		float: none;
+	}
+
+}

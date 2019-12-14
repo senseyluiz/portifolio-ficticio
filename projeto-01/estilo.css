@@ -1,0 +1,236 @@
+body{
+	margin: 0;
+	padding:0;
+}
+
+header{	
+	background: #4682B4;
+	font-family: russo one;
+	font-size: 15pt;
+	color: #ffffff;
+}
+
+#topo{
+	margin: auto;
+	width: 1200px;
+	height: 60px;
+}
+
+
+
+header #email{
+	color: #ffffff;
+	display: inline;
+	float: left;
+}
+
+header #fone{
+	display: inline;
+	float: right;
+}
+
+#navegacao{
+	margin: auto;
+	width: 1200px;
+	height: 160px;
+}
+
+#navegacao .logo{
+	float: left;
+}
+
+.menuTopo{
+	margin-top: 50px;
+
+
+}
+
+ul{
+	
+	list-style: none;
+
+}
+
+ul li{
+	display: inline;
+	margin-left: 50px;
+	margin-top: 100px;
+
+}
+
+ul li a{
+	text-decoration: none;
+	font-size: 15pt;
+	padding: 10px;
+	
+}
+
+ul li a:hover{
+	padding: 10px;
+	border-radius: 2px;
+	background-color: #4682B4;
+	color: #fff;
+}
+
+#fundoTopo{
+	background-image: url('imagens/topo01.jpg');	
+	background-repeat: no-repeat; 	
+	margin: auto;
+	width: 1200px;
+	height: 400px;
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+
+	
+}
+
+#fundoTopo h1{
+	font-size: 30pt;
+}
+
+#fundoTopo p{
+	font-size: 15pt
+}
+
+section{
+	margin-left: 400px;
+	height: 550px;
+	font-size: 15pt;
+	text-align: center;
+}
+
+
+
+.esquerda{
+	margin: 0px 5px 5px 5px;
+	float: left;
+
+}
+
+.foto01{
+	width: 250px;
+	height: 250px;
+	margin: 0px 5px 5px 5px;
+	float: left;
+	background-image: url('imagens/foto01.png');	
+	text-align: center;
+	display: inline;
+}
+
+.foto01:hover{
+	background: #4682B4;
+	color: white;
+}
+
+.foto02{
+	width: 250px;
+	height: 250px;
+	margin: 0px 5px 5px 5px;
+	float: right;
+	background-image: url('imagens/foto02.png');
+
+	display: inline;
+}
+
+.foto02:hover{
+	background: #4682B4;
+	color: white;
+}
+
+.fotosBaixo{
+	display: block;
+}
+
+.foto03{
+	width: 250px;
+	height: 250px;
+	margin: 0px 5px 5px 5px;
+	float: left;
+	background-image: url('imagens/foto03.png');
+
+	display: inline;
+}
+
+.foto03:hover{
+	background: #4682B4;	
+	color: white;
+}
+
+.foto04{
+	width: 250px;
+	height: 250px;
+	margin: 0px 5px 5px 5px;
+	float: right;
+	background-image: url('imagens/foto04.png');
+
+	display: inline;
+}
+
+.foto04:hover{
+	background: #4682B4;
+	color: white;
+}
+
+.foto05{
+	margin-left: 530px;
+	
+	background-image: url('imagens/foto05.png');
+	width: 250px;
+	height: 505px;
+
+}
+
+.foto05:hover{
+	background: #4682B4;
+	color: white;
+}
+
+footer{
+	background: #4682B4;
+	display: flex;
+	height: 450px;
+}
+
+form{
+	width: 400px;
+	height: 380px;
+	border-radius: 8px;
+	border:2px solid #000;
+	padding: 10px;
+	background: #eee;
+	margin-left: 370px;
+	margin-top: 25px;
+
+	
+
+}
+
+#botoes{
+	display: flex;
+}
+
+
+input{
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+textarea{
+	display: block;
+	margin: 10px 0px;
+}
+
+#mapa{
+	width: 400px;
+	height: 400px;
+	border:2px solid #000;
+	border-radius: 8px;
+	float: right;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+
