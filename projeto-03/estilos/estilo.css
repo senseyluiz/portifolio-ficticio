@@ -60,6 +60,7 @@ header img{
 	padding: 10px 0;
 }
 
+
 .menu-desktop{
 	left: 0;
 	padding-top: 80px;
@@ -237,7 +238,7 @@ footer{
 
 .f-contato{
 	text-align: center;
-	width: 50%;
+	width: 60%;
 	padding-top: 50px;
 
 
@@ -318,12 +319,67 @@ div.linha-2 h3, div.linha-1 h3{
 
 
 @media screen and (max-width: 768px){
+
+	.box-servicos .left{
+		float: none;
+	}
+
+	.box-servicos .w33{
+		width: 100%;
+	}
+
+	.menu-desktop{
+		display: none;
+	}
+
+	.botao-menu-mobile{
+		font-size: 30px;
+		cursor: pointer;
+		color: white;
+		float: right;
+		vertical-align: center;
+		
+
+	}
+
+	nav.menu-mobile{
+		display: block;
+	}
+
+	nav.menu-mobile ul{
+		width: 100%;
+		top: 70px;
+		display: none;
+		position: absolute;
+		left: 0;		
+		z-index: 1;
+		text-align: center;
+	}
+
+	nav.menu-mobile ul li{
+		display: block;
+		background: white;
+		border-bottom: 2px solid #ccc;
+		font-size: 17px;
+		padding: 8px 0;
+	}
+
+	nav.menu-mobile a{
+		display: block;
+		color: black;
+		text-decoration: none;
+	}
+
 	.adjetivos{
 		width: 100%;
 	}
 
 	.w20{
 		width: 50%;
+	}
+
+	.f-contato{
+		width: 100%;
 	}
 
 	.f-contato form input[type=submit] {
