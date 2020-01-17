@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    
+}
+
+/**Boot Css**/
+
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.w33{
+    width: 33.3%;
+}
+
+.w50{
+    width: 50%;
+}
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/**Estilização do Site**/
+
+header{
+    padding:  0;
+    background: rgb(133, 57, 22);
+}
+
+header img{
+    width: 20%;
+    vertical-align: middle;
+}
+
+.mobile{
+    display: none;
+}
+
+nav.desktop ul{
+    position: relative;
+    margin-top: 40px;
+    list-style-type: none;
+}
+
+nav.desktop ul li{
+    
+    padding: 0 20px;;
+    display: inline-block;
+}
+
+nav.desktop a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav.desktop a:hover{
+    color: aqua;
+}
