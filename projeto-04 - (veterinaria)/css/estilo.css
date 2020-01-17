@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*boot css*/
+
+.center{
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+.w50{
+	width: 50%;
+}
+
+.w33{
+	width: 33.33%;
+}
+
+.w25{
+	width: 25%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+
+/*estilização da página*/
+
+header{
+	background-color: #99FFFF;
+	padding: 10px 0;
+}
+
+header img{
+	width: 40%;
+}
+
+.menu-mobile{
+	display: none;
+}
+
+nav{
+	vertical-align: bottom;
+}
+
+}
+.menu-desktop ul{
+	padding-top: 20px;
+	list-style: none;
+
+}
+
+.menu-desktop ul li{
+	display: inline-block;
+}
+
+.menu-desktop a{
+	font-size: 15px;
+	padding: 0 15px;
+	text-decoration: none;
+}
+
+.adjetivos{
+	text-align: center;
+}
+
+.adjetivos img{
+	width: 15%;
+}
