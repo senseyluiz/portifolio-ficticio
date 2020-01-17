@@ -40,7 +40,7 @@
 
 header{
     padding:  0;
-    background: rgb(133, 57, 22);
+    background: rgb(148, 70, 34);
 }
 
 header img{
@@ -70,5 +70,68 @@ nav.desktop a{
 }
 
 nav.desktop a:hover{
-    color: aqua;
+    color: rgb(245, 167, 136);
+}
+
+section.banner-principal{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;/**não repetir a imagem**/
+    background-size: cover; /**imagem do tamanho total da tela**/
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+section.banner-principal form{
+    width: 98%;
+    max-width: 500px;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%,-50%);
+
+}
+
+section.banner-principal form h2{
+    color: seashell;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+}
+
+section.banner-principal form input[type=email]{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background: white;
+    color: saddlebrown;
+    font-size: 22px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+section.banner-principal form input[type=submit]{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background: rgb(145, 85, 7);
+    color: rgb(255, 252, 249);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 30px;;
 }
