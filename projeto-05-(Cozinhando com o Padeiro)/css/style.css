@@ -8,6 +8,11 @@
 
 /**Boot Css**/
 
+img{
+    width: 100%;
+    max-width: 600px;
+}
+
 .center{
     max-width: 1280px;
     padding: 0 2%;
@@ -19,6 +24,7 @@
 }
 
 .w50{
+    padding: 0 2%;
     width: 50%;
 }
 
@@ -44,7 +50,7 @@ header{
 }
 
 header img{
-    width: 20%;
+    width: 120px;
     vertical-align: middle;
 }
 
@@ -93,7 +99,7 @@ section.banner-principal{
 }
 
 section.banner-principal form{
-    width: 98%;
+    width: 93%;
     max-width: 500px;
     z-index: 2;
     position: absolute;
@@ -135,3 +141,82 @@ section.banner-principal form input[type=submit]{
     border: none;
     font-size: 30px;;
 }
+
+section.descricao-autor{
+    padding: 30px 0;
+}
+
+section.descricao-autor h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #244;
+}
+
+section.descricao-autor p{
+    font-size: 16px;
+    color: #244;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:580px){
+    nav.desktop{
+        display: none;
+    }   
+
+    nav.mobile{
+        display: block;
+    }
+
+    nav.mobile ul{
+        top: 120px;
+        z-index: 3;
+        display: none;
+        position: absolute;
+        left: 0;
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .botao-menu-mobile{
+        font-size: 45px;
+        cursor: pointer;
+        color: seashell;
+    }
+
+    nav.mobile li{
+        display: block;
+        background: white;
+        border-bottom: 1px solid #ccc;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 8px 0;
+    }
+
+    nav.mobile li a{
+        display: block;
+        color: sienna;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    img{
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    .descricao-autor .left{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .w50{
+        padding: 20px;
+        max-width: 100%;
+    }
+}
+
