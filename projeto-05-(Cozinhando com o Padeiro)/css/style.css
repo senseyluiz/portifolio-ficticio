@@ -10,7 +10,7 @@
 
 img{
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
 }
 
 .center{
@@ -21,6 +21,7 @@ img{
 
 .w33{
     width: 33.3%;
+    padding: 0 10px;
 }
 
 .w50{
@@ -158,6 +159,139 @@ section.descricao-autor p{
     margin-top: 10px;
 }
 
+section.especialidades{
+    padding: 40px 0;
+    background: #E2E2E2;
+}
+
+section.especialidades h2.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(128, 79, 23);
+}
+
+.box-especialidade{
+    margin: 40px 0;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.box-especialidade h3{
+    text-align: center;
+    color: rgb(163, 106, 80);
+    font-size: 40px;
+}
+
+.box-especialidade h4{
+    font-weight: 400;
+    color: sienna;
+    font-size: 25px;
+}
+
+.box-especialidade p{
+    color: rgb(110, 59, 44);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+section.extras{
+    padding: 30px 0;
+    background: rgb(223, 188, 171);
+}
+
+.depoimentos-container, .servicos-container{
+    padding: 0 2%;
+}
+
+section.extras .title{
+    color: rgb(68, 17, 2);
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.depoimento-single{
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(116, 67, 28);
+}
+
+p.depoimento-descricao{
+    font-size: 15px;
+    color: rgb(102, 27, 5);
+}
+
+p.nome-autor{
+    font-size: 15px;
+    color: rgb(102, 27, 5);
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.servicos ul{
+    margin: 20px 0;
+    list-style-position: inside;
+}
+
+.servicos li{
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: rgb(102, 27, 5);
+}
+
+footer{
+    background: #c29774;
+    padding: 30px 0;
+}
+
+footer p{
+    text-align: center;
+    color: sienna;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media screen and (max-width:768px){
+    img{
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    .descricao-autor .left{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .depoimentos-container{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .servicos-container{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .box-especialidade{
+        margin: 0;
+    }
+
+    .w50{
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .w33{
+        width: 100%;
+        padding: 20px;
+    }
+}
+
 @media screen and (max-width:580px){
     nav.desktop{
         display: none;
@@ -200,23 +334,5 @@ section.descricao-autor p{
     }
 }
 
-@media screen and (max-width:768px){
-    img{
-        float: none !important;
-        display: block;
-        margin: 0 auto;
-        
-    }
 
-    .descricao-autor .left{
-        float: none;
-        display: block;
-        width: 100%;
-    }
-
-    .w50{
-        padding: 20px;
-        max-width: 100%;
-    }
-}
 
