@@ -77,7 +77,7 @@ nav.desktop a{
 }
 
 nav.desktop a:hover{
-    color: rgb(245, 167, 136);
+    text-decoration: underline;
 }
 
 section.banner-principal{
